@@ -9,6 +9,7 @@ header {
   padding: 1rem;
   text-align: center;
   border: 5px solid black;
+  width: 100vw;
 }
 
 aside {
@@ -16,7 +17,7 @@ aside {
   border-top: 1px solid;
   width: 15%;
   padding-left: 10px;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
 }

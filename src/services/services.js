@@ -13,8 +13,7 @@ export async function getProductsFromCategoryAndQuery(categoryId, query) {
 }
 
 export async function getProductById(id) {
-  const txtWithoutQuotes = id.replace(/["]/g, '');
-  const url = `https://api.mercadolibre.com/items/${txtWithoutQuotes}`;
+  const url = `https://api.mercadolibre.com/items/${id}`;
   const response = await fetch(url);
   const data = response.json();
   return data;
