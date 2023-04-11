@@ -11,18 +11,29 @@ export default function MainProduct() {
     <div className={styles.mainproduct}>
         { list.length > 0 &&
   (  <section className={styles.exposeProduct}>
-  <div>
+
+  <div className={styles.primaryProduct}>
+    <div className={styles.detailsProduct}>
     <Image src={list[ramdomNumber].thumbnail} alt={list[ramdomNumber].title} width={100} height={100} />
-     <p>{list[ramdomNumber].price}</p>
+    <div>
+     <h3>R${list[ramdomNumber].price}</h3>
      <p>{list[ramdomNumber].title}</p>
-     <button>Buy Now</button>
+    </div>
      </div>
+     <button className={styles.btnNow}>COMPRE AGORA</button>
+     </div>
+
      <p className={styles.lineproduct}></p>
-     <div>
+
+     <div className={styles.primaryProduct}>
+     <div className={styles.detailsProduct}>
      <Image src={list[ramdomNumber2].thumbnail} alt={list[ramdomNumber2].title} width={100} height={100} />
-     <p>{list[ramdomNumber2].price}</p>
-     <p>{list[ramdomNumber2].title}</p>
-     <button>Buy Now</button>
+      <div>
+     <h3>{list[ramdomNumber2].title}</h3>
+     <p className={styles.price}>R${list[ramdomNumber2].price}</p>
+     <p><a href={list[ramdomNumber2].permalink} target="_blanck">Clique aqui</a> para mais detalhes do produto</p>
+     </div>
+     </div>
      </div>
      </section>
      )

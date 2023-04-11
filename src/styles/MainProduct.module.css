@@ -23,3 +23,36 @@
     height: 100%;
     background-color: #f5f5f5;
 }
+
+.primaryProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailsProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 13px;
+}
+
+.btnNow {
+    width: 50%;
+    height: 50px;
+    font-weight: 700;
+    Font-size: 20px;
+}
+
+.price {
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    font-size: 30px;
+    color: red;
+}

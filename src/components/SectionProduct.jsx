@@ -49,7 +49,7 @@ export default function SectionProduct() {
             <div className={styles.productInfo}>
               <h2>R${selectedProduct.price}</h2>
               <p className={styles.title}>{selectedProduct.title}</p>
-              <button className={styles.btn}>Buy</button>
+              <button className={styles.btn}>Compre</button>
             </div>
           </div>
         )}
