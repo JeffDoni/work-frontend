@@ -7,6 +7,7 @@ export default function Aside() {
   const { categories, setSelectId, setList} = useContext(ProductContext);
   const handleChange = async ({ target: { value } }) => {
     setSelectId(value);
+    console.log(value)
     try {
       const product = await getProductsFromCategoryAndQuery(value, '');
       setList(product.results);

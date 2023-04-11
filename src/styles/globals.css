@@ -9,14 +9,16 @@ header {
   padding: 1rem;
   text-align: center;
   border: 5px solid black;
+  width: 100vw;
 }
 
 aside {
   border: 5px solid black;
   border-top: 1px solid;
+  border-bottom: 1px solid;
   width: 15%;
   padding-left: 10px;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
 }
@@ -26,14 +28,13 @@ main {
   width: 100vw;
   justify-content: center;
 }
-
-/* .section-product {
-  width: 85vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  justify-content: center;
-} */
+ footer {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+  border: 5px solid black;
+  width: 100vw;
+ }
 
 .btn-category {
   text-align: left;
