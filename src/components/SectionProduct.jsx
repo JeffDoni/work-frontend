@@ -44,6 +44,7 @@ export default function SectionProduct() {
                 alt={selectedProduct.title}
                 width={250}
                 height={250}
+                className={styles.image}
               />
             </div>
             <div className={styles.productInfo}>

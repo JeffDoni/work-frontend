@@ -43,7 +43,7 @@
 }
 
 .btnNow {
-    width: 50%;
+    width: 100px;
     height: 50px;
     font-weight: 700;
     Font-size: 20px;
@@ -55,4 +55,10 @@
     height: 30px;
     font-size: 30px;
     color: red;
+}
+
+@media (max-width: 600px) {
+    .detailsProduct {
+        flex-direction: column;
+    }
 }

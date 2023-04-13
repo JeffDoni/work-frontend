@@ -89,3 +89,31 @@
   .title {
     width: 400px;
   }
+
+  @media (max-width: 600px) {
+    .image {
+      width: 200px;
+    }
+    
+    .productDetails {
+      width: 300px;
+      flex-direction: column;
+    }
+
+    .productInfo {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .productInfo p {
+      width: 60%;
+    }
+    
+    .prev, .next {
+      width: 30px;
+      height: 30px;
+    }
+  }

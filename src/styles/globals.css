@@ -45,3 +45,31 @@ main {
 }
 
 
+@media (max-width: 600px){
+    
+    header {
+      width: 95%;
+      border: none;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    aside {
+      border: none
+    }
+
+    .showCategory{
+      font-size: 10px;
+      position: absolute;
+      z-index: 2;
+      width: 70%;
+      left: 0;
+    }
+
+    .hideCategory {
+      display: none;
+    }
+}
+
